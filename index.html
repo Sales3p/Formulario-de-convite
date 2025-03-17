@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Leckerli+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="principal">
+    <aside>
+      <div class="aside-container">
+        <div class="title-aside">
+          <img src="assets/icons/Logo.svg" alt="logo do formulario de convite">
+          <h1>Festivite</h1>
+          <p>Crie um convite digital para o seu evento</p>
+        </div>
+      </div>
+    </aside>
+
+    <main>
+      <div class="main-container">
+        <h1>Crie seu convite</h1>
+
+        <form method="post" enctype="multipart/form-data">
+
+          <fieldset class="sobre-o-evento">
+
+            <div id="title-sobre-o-evento">
+              <img src="assets/icons/calendar.svg" alt="icone de calendario">
+              <legend>Sobre o evento</legend>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="title-event">Título</label>
+              <input type="text" name="title-event" id="title-event" placeholder="Nome do evento">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="date-in-event">ínicio</label>
+              <input type="date" name="date-in-event" id="date-in-event">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="date-end-event">Fim</label>
+              <input type="date" name="date-end-event" id="date-end-event">
+            </div>
+            <div class="select-wrapper">
+              <label for="type-event">Tipo</label>
+              <input type="" name="type-event" id="type-event">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="loc-event">Local</label>
+              <input type="text" name="loc-event" id="loc-event" placeholder="Link ou endereço">
+            </div>
+
+            <div class="textarea-wrapper">
+              <label for="description">Descrição</label>
+              <textarea name="description" id="description" placeholder="Escreva sobre os detalhes do evento" cols="70" rows="6"></textarea>
+            </div>
+
+          </fieldset>
+
+        </form>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
