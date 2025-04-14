@@ -59,3 +59,16 @@
     }
   }
 }
+
+.radio-inner:has(input:checked) {
+  background-color: var(--shape-hover);
+  border: .125rem solid var(--input-base);
+}
+
+.radio-inner:has(input:checked) #pres {
+  background-image: url(../../assets/icons/building-2-hover.svg);
+}
+
+.radio-inner:has(input:checked) #onl {
+  background-image: url(../../assets/icons/video-hover.svg);
+}
