@@ -203,7 +203,7 @@ label + .color-wrapper {
     height: 2.5rem;
     position: absolute;
     border-radius: .5rem;
-    background-color: transparent;
+    opacity: 0;
   }
 
   & label {

@@ -261,6 +261,51 @@
               <legend>Dados para contato</legend>
             </div>
 
+            <div class="input-wrapper">
+              <label for="name-contact">Nome</label>
+              <input type="text" name="name-contact" id="name-contact" placeholder="Nome completo" required>
+              <div class="error">
+                <img src="assets/icons/circle-alert.svg" alt="icone de erro">
+                <span>Campo obrigatório</span>
+              </div>
+            </div>
+
+            <div class="wrap m-top">  
+              <div class="input-wrapper">
+                <label for="email-contact">E-mail</label>
+                <input type="email" name="email-contact" id="email-contact" placeholder="exemplo@email.com">
+              </div>
+
+              <div class="input-wrapper">
+                <label for="tel-contact">Telefone</label>
+                <input type="tel" name="tel-contact" id="tel-contact" placeholder="(11) 1 4002-8922">
+              </div>
+            </div>
+
+            <div class="terms">
+              <div class="terms-inner">
+                <input type="checkbox" name="terms-and" id="terms-and">
+                <label for="terms-and">Li e concordo com os <span>Termos e Condições</span> e com a <span>Política de Privacidade</span></label>
+              </div>
+
+              <div class="terms-inner">
+                <input type="checkbox" name="promo-email" id="promo-email">
+                <label for="promo-email">Aceito receber atualizações e promoções por e-mail</label>
+              </div>
+
+              <div class="terms-inner">
+                <input type="checkbox" name="promo-sms" id="promo-sms">
+                <label for="promo-sms">Aceito receber atualizações e promoções por SMS</label>
+              </div>
+            </div>
+
+            <div id="end-convit">
+              <div class="convit">
+                <input type="radio" name="ready" id="ready">
+                <img src="assets/icons/ticket.svg" alt="icone de ticket">
+                <label for="convit">Gerar convite</label>
+              </div>
+            </div>
           </fieldset>
 
         </form>

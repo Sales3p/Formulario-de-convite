@@ -24,3 +24,24 @@ textarea:focus {
   outline: .125rem solid #59B2FF;
   outline-offset: .1px;
 }
+
+input {
+  &:invalid {
+    border: .125rem solid var(--danger);
+  }
+
+  &:not(:focus):valid + .error {
+    display: none;
+  }
+}
+
+.error {
+  display: flex;
+  align-items: center;
+  gap: .25rem;
+  margin-top: .25rem;
+
+  & span {
+    color: var(--danger);
+  }
+}

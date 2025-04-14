@@ -9,15 +9,14 @@
 
 main {
   overflow: auto;
-  padding: 5rem 8,125rem;
-  margin: 1rem;
+  margin: .5rem;
 
   & .main-container {
     max-width: 51.25rem;
     margin-right: auto;
     background-color: var(--shape-body);
     border-radius: 1rem;
-    padding: 5rem 8.125rem;
+    padding: 5rem;
   }
 
   h1 {
@@ -33,15 +32,15 @@ aside {
     background-image: url(../assets/Background.jpg);
     background-size: cover;
     padding: 2rem;
-    width: 25rem;
-    height: 45.5rem;
+    width: 27rem;
+    height: 50rem;
     margin-left: auto;
-    margin-top: 1rem;
+    margin-top: .5rem;
     border-radius: 1rem;
   }
 
   img {
-    width: 2,865rem;
+    width: 2.875rem;
     height: 3rem;
     margin-bottom: 1rem;
   }
